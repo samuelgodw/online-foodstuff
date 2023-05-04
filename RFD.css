@@ -261,6 +261,20 @@ body {
         display: flex;
     }
 }
+@media (min-width: 1280px) {
+    .logo {
+        border: 1px solid black;
+        padding-left: 460px;
+        background-color: black;
+        width: 1293px;
+    }
+    .food {
+        border: 1px solid;
+        width: 1293px;
+        margin-top: 10px;
+        background-color: darkslategray;
+    }
+}
 @media (min-width: 1440px) {
     .logo {
         border: 1px solid black;
