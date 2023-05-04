@@ -190,6 +190,23 @@ body {
         margin-left: 300px;
     }
 }
+@media (min-width: 1280px) {
+    .food {
+        padding: 7px;
+        padding-top: 40px;
+        width: 1500px;
+    }
+    .logo {
+        margin-left: 480px;
+    }
+    .bm {
+        margin-left: 200px;
+        width: 900px;
+    }
+    .row-1 {
+        margin-left: 428px;
+    }
+}
 @media (min-width: 1440px) {
     .food {
         padding: 260px;
