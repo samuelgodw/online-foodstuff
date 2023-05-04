@@ -236,6 +236,24 @@ table {
         padding-bottom: 10px;
     }
 }
+@media (min-width: 1280px) {
+    .logo {
+        border: 1px solid;
+        background-color: black;
+        width: 1339px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .food {
+        border: 1px solid;
+        width: 1339px;
+        padding-top: 43px;
+        padding-bottom: 43px;
+        padding-left: 0px;
+        margin-top: 40px;
+        background-color: darkslategray; 
+    }
+}
 @media (min-width: 1440px) {
     .logo {
         border: 1px solid;
