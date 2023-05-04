@@ -1,0 +1,448 @@
+.logo {
+    border: 1px solid;
+    padding: px;
+    width: 320px;
+    background-color: black;
+}
+.food {
+    border: 1px solid;
+    width: 320px;
+    padding: 43px;
+    margin-top: 40px;
+    background-color: darkslategray;
+}
+#ul {
+    list-style-type: none;
+    display: inline-block;
+    
+}
+#vf {
+    text-decoration: none;
+}
+.row-food {
+    display: inline-block;
+    list-style-type: none;
+}
+.col-food {
+    display: inline-block;
+}
+#ft:hover {
+    color: deeppink;
+    
+}
+#ft {
+    text-decoration-line: none;
+}
+#home {
+    text-decoration-line: none;
+}
+#home:hover {
+    color:  deeppink;;
+}
+.form-control {
+    border: 1px solid;
+    width: auto;
+    border-radius: 12px;
+}
+#btn:hover {
+    color: black;
+    
+} 
+.form-control {
+    border: 1px solid;
+    width: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 20px;
+    display: flex;
+    border-radius: 12px;
+}
+.form-control::after {
+    color: black;
+}
+#btn:hover {
+    color: black;
+    
+} 
+.form {
+   margin-left: 20px;
+   padding: 30px;
+}
+#btn {
+    border: 1px solid;
+    background-color: darkgrey;
+    text-decoration-line: none;
+    padding: 10px;
+    border-radius: 12px;
+}
+#ft {
+    text-decoration-line: none;
+}
+#submit {
+    
+    text-decoration-line: none;
+}
+#submit:hover {
+    color: black;
+}
+#home {
+    text-decoration-line: none;
+}
+#home:hover {
+    color:  deeppink;
+}
+#gmail:hover {
+    color:  deeppink
+} 
+.trader {
+    padding-left: 10px;
+    width: 318px;
+    margin-top: 30px;
+} 
+.pts {
+    padding-left: 10px;
+    width: 318px;
+    margin-top: 30px;
+}
+.acct {
+    padding-left: 100px;
+    width: 700px;
+    text-align: justify;
+    margin-top: 30px;
+}
+.form-fill {
+    padding: 30px;
+}
+.goods {
+    padding: 30px;
+}
+#note {
+    padding-left: 15px;
+    width: 318px;
+    margin-top: 30px;
+}
+.text {
+    width: 300px;
+    height: 300px;
+}
+#sel {
+    display: inline-block;
+}
+
+.acct {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#text {
+    margin-top: 40px;
+    padding: 17px;
+    width: 260px;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+#text:hover {
+    color: black;
+}
+.order {
+    border: 1px solid black;
+    border-radius: 12px;
+}
+body {
+    background-color:  lightcoral;
+    font-size: larger;
+}
+#mg {
+    padding-left: 20px;
+    width: 300px;
+}
+#df {
+    text-decoration: none;
+}
+@media (min-width: 360px) {
+    .logo {
+        border: 1px solid;
+        width: 420px;
+        background-color: black;
+    }
+    .trader {
+        padding-left: 35px;
+        width: 348px;
+        margin-top: 30px;
+    } 
+    #note {
+        padding-left: 37px;
+        width: 318px;
+        margin-top: 30px;
+    }
+    .pts {
+        padding-left: 40px;
+        width: 318px;
+        margin-top: 30px;
+    }
+    #text {
+        margin-top: 30px;
+        padding: 17px;
+        width: 260px;
+        border: 1px solid black;
+        border-radius: 12px;
+    }
+    .food {
+        border: 1px solid;
+        width: 420px;
+        padding: 43px;
+        margin-top: 40px;
+        background-color: darkslategray;
+    }
+}
+@media (min-width: 375px) {
+    .logo {
+        border: 1px solid;
+        width: 407px;
+        background-color: black;
+    }
+    .trader {
+        padding-left: 20px;
+        width: 348px;
+        margin-top: 30px;
+    } 
+    .pts {
+        padding-left: 10px;
+        width: 318px;
+        margin-top: 30px;
+    }
+    #note {
+        padding-left: 20px;
+        width: 332px;
+        margin-top: 30px;
+    }
+    .food {
+        border: 1px solid;
+        width: 407px;
+        padding: 43px;
+        margin-top: 40px;
+        background-color: darkslategray;
+    }
+}
+@media (min-width: 412px) {
+    .logo {
+        border: 1px solid;
+        width: 413px;
+        background-color: black;
+    } 
+    .food {
+        border: 1px solid;
+        width: 413px;
+        padding: 43px;
+        margin-top: 40px;
+        background-color: darkslategray;
+    }  
+}
+@media (min-width: 425px) {
+    .logo {
+        border: 1px solid;
+        width: 425px;
+        background-color: black;
+    }
+    .trader {
+        padding-left: 40px;
+        width: 357px;
+        margin-top: 30px;
+    } 
+    .pts {
+        padding-left: 18px;
+        width: 370px;
+        margin-top: 30px;
+    }
+    #note {
+        padding-left: 20px;
+        width: 350px;
+        margin-top: 30px;
+    }
+    .food {
+        border: 1px solid;
+        width: 425px;
+        padding: 43px;
+        margin-top: 40px;
+        background-color: darkslategray;
+    }
+    #text {
+        margin-top: 40px;
+        padding-top: 17px;
+        padding-bottom: 17px;
+        width: 200px;
+        border: 1px solid black;
+        border-radius: 12px;
+    }
+}
+@media (min-width: 768px) {
+    .logo {
+        border: 1px solid;
+        width: 990px;
+        background-color: black;
+    }
+    #mg {
+        padding-left: 200px;
+        width: 700px;
+    }
+    .trader {
+        padding-left: 40px;
+        width: 700px;
+        margin-top: 30px;
+    } 
+    .pts {
+        padding-left: 40px;
+        width: 700px;
+        margin-top: 30px;
+    }
+    #note {
+        padding-left: 30px;
+        width: 700px;
+        margin-top: 30px;
+    }
+    #text {
+        margin-top: 40px;
+        padding: 17px;
+        width: 650px;
+        border: 1px solid black;
+        border-radius: 12px;
+    }
+    .food {
+        border: 1px solid;
+        width:  990px;
+        padding: 43px;
+        margin-top: 40px;
+        background-color: darkslategray;
+    }
+}
+@media (min-width: 1024px) {
+    .logo {
+        border: 1px solid;
+        width: 1030px;
+        background-color: black;
+    }
+    #mg {
+        padding-left: 190px;
+        width: 700px;
+    }
+    .food {
+        border: 1px solid;
+        width:  1030px;
+        padding: 43px;
+        margin-top: 40px;
+        background-color: darkslategray;
+    }
+}
+@media (min-width: 1440px) {
+    .logo {
+        border: 1px solid;
+        width: 1509px;
+        background-color: black;
+    }
+    .food {
+        border: 1px solid;
+        width:  1509px;
+        padding: 43px;
+        margin-top: 40px;
+        background-color: darkslategray;
+    }
+    #mg {
+        padding-left: 490px;
+        width: 800px;
+    }
+    .trader {
+        padding-left: 70px;
+        width: 1000px;
+        margin-top: 30px;
+    } 
+    .pts {
+        padding-left: 70px;
+        width: 700px;
+        margin-top: 30px;
+    }
+    #ul {
+        list-style-type: none;
+        display: flex;
+        
+    }
+    #vf {
+        text-decoration: none;
+    }
+    .row-food {
+        display: flex;
+        list-style-type: none;
+    }
+    .col-food {
+        display: flex;
+    }
+
+}
+@media (min-width: 2560px) {
+    .logo {
+        border: 1px solid;
+        width: 3509px;
+        background-color: black;
+    }
+    #mg {
+        padding-left: 990px;
+        width: 1900px;
+    }
+    .trader {
+        padding-left: 70px;
+        width: 2000px;
+        margin-top: 30px;
+        font-size: 40px;
+    } 
+    #pr {
+        font-size: 40px;
+    }
+    .pts {
+        padding-left: 70px;
+        width: 2000px;
+        margin-top: 30px;
+        font-size: 40px;
+    }
+    #note {
+        padding-left: 30px;
+        width: 2000px;
+        margin-top: 30px;
+        font-size: 40px;
+    }
+    .food {
+        border: 1px solid;
+        width:  3509px;
+        padding: 43px;
+        margin-top: 40px;
+        background-color: darkslategray;
+        font-size: 40px;
+    }
+    #ul {
+        list-style-type: none;
+        display: flex;
+        
+    }
+    #vf {
+        text-decoration: none;
+    }
+    .row-food {
+        display: flex;
+        list-style-type: none;
+    }
+    .col-food {
+        display: flex;
+    }
+    #re {
+        font-size: 40px;
+    }
+    #text {
+        margin-top: 40px;
+        padding-top: 17px;
+        padding-bottom: 17px;
+        width: 1000px;
+        border: 1px solid black;
+        border-radius: 12px;
+    }
+    #fill {
+        width: 500px;
+        padding: 20px;
+    }
+}

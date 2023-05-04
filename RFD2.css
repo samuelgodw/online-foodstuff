@@ -1,0 +1,339 @@
+.logo {
+    border: 1px solid;
+    background-color: black;
+    width: 1139px;
+}
+.food {
+    border: 1px solid;
+    width: 1139px;
+    padding: 43px;
+    margin-top: 40px;
+    background-color: darkslategray; 
+}
+#ul {
+    list-style-type: none;
+    display: inline-block;
+}
+.row-food {
+    display: inline-block;
+    list-style-type: none;
+}
+.col-food {
+    display: inline-block;
+}
+#ft:hover {
+    color: deeppink;   
+}
+#ft {
+    text-decoration-line: none;
+}    
+.form-control {
+    border: 1px solid;
+    width: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 20px;
+    display: flex;
+    border-radius: 12px;
+}
+.form-control::after {
+    color: black;
+}
+#btn:hover {
+    color: black;
+    
+} 
+.form {
+   margin-left: 20px;
+   padding: 30px;
+   background-color:  
+   margin-right: 1px;
+}
+body {
+    background-color:  lightcoral;
+}
+#btn {
+    border: 1px solid;
+    background-color: dodgerblue;
+    text-decoration-line: none;
+    padding: 10px;
+    border-radius: 12px;
+}
+#ft {
+    text-decoration-line: none;
+}
+#submit {
+    
+    text-decoration-line: none;
+}
+#submit:hover {
+    color: black;
+}
+#home {
+    text-decoration-line: none;
+}
+#home:hover {
+    color:  deeppink;
+}
+table {
+    border: 1px solid;
+}
+.tab-roll {
+    border: 1px solid;
+    padding-left: 10px;
+    border-radius: 12px;
+}
+.tab-data {
+    border: 1px solid;
+    padding-left: 10px;
+    border-radius: 12px;
+}
+.tab-head1 {
+    border: 1px solid;
+    padding-left: 20px;
+}
+.tab-head2 {
+    border: 1px solid;
+    padding-left: 20px;
+    
+}
+.tab-head3 {
+    border: 1px solid;
+    padding-left: 20px;
+   
+}
+.tab-head4 {
+    border: 1px solid;
+    padding-left: 20px;
+   
+}
+.tab-head5 {
+    border: 1px solid;
+    padding-left: 20px;
+    
+    
+}
+.tab-head6 {
+    border: 1px solid;
+    padding-left: 20px;
+    
+    
+}
+.text {
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+    border: 1px solid
+}
+#sel {
+    display: inline-block;
+}
+
+.acct {
+    margin-top: 30px;
+    margin-left: 15px;
+    width: 300px;
+    text-decoration: none;
+}
+#text {
+    margin-top: 10px;
+    padding-top: px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+#text:hover {
+    color: black;
+}
+.order {
+    border: 1px solid black;
+    padding: 2px;
+    margin-top: 4px;
+    margin-left: 0%;
+    background-color: white;
+    border-radius: 12px;
+}
+#mg {
+    padding-left: 20px;
+    width: 300px;
+}
+@media (min-width: 375px) {
+    .acct {
+        margin-top: 30px;
+        margin-left: 20px;
+        width: 300px;
+        text-decoration: none;
+    }
+}
+@media (min-width: 425px) {
+    .acct {
+        margin-top: 30px;
+        margin-left: 20px;
+        width: 390px;
+        text-decoration: none;
+    }
+}
+@media (min-width: 768px) {
+    .logo {
+        border: 1px solid;
+        background-color: black;
+        width: 1139px;
+    }
+    #mg {
+        padding-left: 250px;
+        width: 400px;
+    }
+    .acct {
+        margin-top: 30px;
+        margin-left: 20px;
+        width: 740px;
+        text-decoration: none;
+    }
+    #text {
+        margin-top: 10px;
+        padding-top: px;
+        width: 700px;
+        border: 1px solid black;
+        border-radius: 12px;
+    }
+    #ul {
+        list-style-type: none;
+        display: flex;
+    }
+    .row-food {
+        display: flex;
+        list-style-type: none;
+    }
+    .col-food {
+        display: flex;
+    }
+    .food {
+        border: 1px solid;
+        width: 1139px;
+        padding-top: 43px;
+        padding-bottom: 43px;
+        padding-left: 0px;
+        margin-top: 40px;
+        background-color: darkslategray; 
+    }
+}
+@media (min-width: 1024px) {
+    .acct {
+        margin-top: 30px;
+        margin-left: 30px;
+        width: 940px;
+        text-decoration: none;
+    }
+    #mg {
+        padding-left: 400px;
+        width: 600px;
+    }
+    .logo {
+        border: 1px solid;
+        background-color: black;
+        width: 1139px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+@media (min-width: 1440px) {
+    .logo {
+        border: 1px solid;
+        background-color: black;
+        width: 1539px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #mg {
+        padding-left: 500px;
+        width: 900px;
+    }
+    .acct {
+        margin-top: 30px;
+        margin-left: 30px;
+        width: 1040px;
+        text-decoration: none;
+        font-size: larger;
+    }
+    #text {
+        margin-top: 10px;
+        padding-top: px;
+        width: 900px;
+        border: 1px solid black;
+        border-radius: 12px;
+    }
+    .food {
+        border: 1px solid;
+        width: 1539px;
+        padding-top: 43px;
+        padding-bottom: 43px;
+        padding-left: 0px;
+        margin-top: 40px;
+        background-color: darkslategray; 
+        font-size: large;
+    }
+}
+@media (min-width: 2560px) {
+    .logo {
+        border: 1px solid;
+        background-color: black;
+        width: 2739px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 40px;
+    }
+    #mg {
+        padding-left: 700px;
+        width: 2000px;
+    }
+    .food {
+        border: 1px solid;
+        width: 2739px;
+        padding-top: 43px;
+        padding-bottom: 43px;
+        padding-left: 0px;
+        margin-top: 40px;
+        background-color: darkslategray; 
+        font-size: 40px;
+    }
+    .acct {
+        margin-top: 30px;
+        margin-left: 60px;
+        width: 2040px;
+        text-decoration: none;
+        font-size: 40px;
+    }
+    #mm {
+        font-size: 40px;
+    }
+    .radio {
+        width: 400px;
+        padding: 5px;
+    }
+    .form-control {
+        width: 400px;
+        padding: 40px;
+    }
+    .mf {
+        width: 400px;
+        padding: 40px;
+    }
+    .form-check-input {
+        width: 50px;
+        padding: 2px;
+    }
+    #ds {
+        width: 200px;
+        padding: 40px;
+    }
+    #dd {
+        width: 800px;
+        padding: 40px;
+    }
+    #re {
+        font-size: 40px;
+    }
+}
+
+
+

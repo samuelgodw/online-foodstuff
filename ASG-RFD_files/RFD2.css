@@ -1,0 +1,37 @@
+.logo {
+    border: 1px solid;
+    padding: 43px;
+    /*width: 1000px
+    margin-left: 40px;
+    margin-right: 23px;*/
+    width: auto;
+}
+.food {
+    border: 1px solid;
+    width: auto;
+    padding: 43px;
+    margin-top: 40px;
+}
+#ul {
+    list-style-type: none;
+}
+.row-food {
+    display: flex;
+    list-style-type: none;
+    width: auto;
+}
+.col-food {
+    margin-left: 30px;
+    display: flex;
+}
+#ft:hover {
+    color: deeppink;
+    
+}
+.form-control {
+    border: 1px solid;
+    width: auto;
+}
+#btn:hover {
+    color: hotpink;
+} 
