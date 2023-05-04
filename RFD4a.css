@@ -332,6 +332,39 @@ body {
         background-color: darkslategray;
     }
 }
+@media (min-width: 1280px) {
+    .logo {
+        border: 1px solid;
+        width: 1330px;
+        background-color: black;
+    }
+    .food {
+        border: 1px solid;
+        width:  1330px;
+        padding: 43px;
+        margin-top: 40px;
+        background-color: darkslategray;
+    }
+    #mg {
+        padding-left: 420px;
+        width: 700px;
+    }
+    #ul {
+        list-style-type: none;
+        display: flex;
+        
+    }
+    #vf {
+        text-decoration: none;
+    }
+    .row-food {
+        display: flex;
+        list-style-type: none;
+    }
+    .col-food {
+        display: flex;
+    }
+}
 @media (min-width: 1440px) {
     .logo {
         border: 1px solid;
