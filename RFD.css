@@ -2,7 +2,7 @@
     border: 1px solid black;
     padding-left: 94px;
     background-color: black;
-    width: 334px;
+    width: 1000px;
 }
 #submit {
     
@@ -26,7 +26,7 @@ body {
 }
 .food {
     border: 1px solid;
-    width: 334px;
+    width: 1000px;
     margin-top: 40px;
     background-color: darkslategray;
 }
