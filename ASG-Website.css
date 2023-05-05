@@ -97,7 +97,7 @@ body {
 .fa {
     color: dodgerblue;
 }
-@media (max-height: 320px) and (orientation: landscape) {
+@media (min-height: 320px) and (orientation: landscape) {
 }
 @media (max-height: 570px) and (orientation: portrait) {
 }
