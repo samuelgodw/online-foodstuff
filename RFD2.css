@@ -182,4 +182,11 @@ table {
         margin-top: 40px;
         background-color: darkslategray; 
     }
+    #text {
+        margin-top: 10px;
+        padding-top: px;
+        width: 700px;
+        border: 1px solid black;
+        border-radius: 12px;
+    }
 }
