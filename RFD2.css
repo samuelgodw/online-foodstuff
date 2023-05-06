@@ -1,7 +1,7 @@
 .logo {
     border: 1px solid;
     background-color: black;
-    width: 2139px;
+    min-width: 2139px;
 }
 .food {
     border: 1px solid;
@@ -85,7 +85,7 @@ table {
 }
 .tab-data {
     border: 1px solid;
-    padding-left: 10px;
+    padding-left: px;
     border-radius: 12px;
 }
 .tab-head1 {
@@ -157,44 +157,12 @@ table {
     padding-left: 20px;
     width: 300px;
 }
-@media (min-width: 375px) {
-    .acct {
-        margin-top: 30px;
-        margin-left: 20px;
-        width: 300px;
-        text-decoration: none;
-    }
-}
-@media (min-width: 425px) {
-    .acct {
-        margin-top: 30px;
-        margin-left: 20px;
-        width: 390px;
-        text-decoration: none;
-    }
-}
 @media (min-width: 768px) {
-    .logo {
-        border: 1px solid;
-        background-color: black;
-        width: 1139px;
-    }
-    #mg {
-        padding-left: 250px;
-        width: 400px;
-    }
     .acct {
         margin-top: 30px;
-        margin-left: 20px;
-        width: 740px;
-        text-decoration: none;
-    }
-    #text {
-        margin-top: 10px;
-        padding-top: px;
+        margin-left: 15px;
         width: 700px;
-        border: 1px solid black;
-        border-radius: 12px;
+        text-decoration: none;
     }
     #ul {
         list-style-type: none;
@@ -209,149 +177,9 @@ table {
     }
     .food {
         border: 1px solid;
-        width: 1139px;
-        padding-top: 43px;
-        padding-bottom: 43px;
-        padding-left: 0px;
+        width: 2139px;
+        padding: 43px;
         margin-top: 40px;
         background-color: darkslategray; 
     }
 }
-@media (min-width: 1024px) {
-    .acct {
-        margin-top: 30px;
-        margin-left: 30px;
-        width: 940px;
-        text-decoration: none;
-    }
-    #mg {
-        padding-left: 400px;
-        width: 600px;
-    }
-    .logo {
-        border: 1px solid;
-        background-color: black;
-        width: 1139px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-}
-@media (min-width: 1280px) {
-    .logo {
-        border: 1px solid;
-        background-color: black;
-        width: 1339px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .food {
-        border: 1px solid;
-        width: 1339px;
-        padding-top: 43px;
-        padding-bottom: 43px;
-        padding-left: 0px;
-        margin-top: 40px;
-        background-color: darkslategray; 
-    }
-}
-@media (min-width: 1440px) {
-    .logo {
-        border: 1px solid;
-        background-color: black;
-        width: 1539px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    #mg {
-        padding-left: 500px;
-        width: 900px;
-    }
-    .acct {
-        margin-top: 30px;
-        margin-left: 30px;
-        width: 1040px;
-        text-decoration: none;
-        font-size: larger;
-    }
-    #text {
-        margin-top: 10px;
-        padding-top: px;
-        width: 900px;
-        border: 1px solid black;
-        border-radius: 12px;
-    }
-    .food {
-        border: 1px solid;
-        width: 1539px;
-        padding-top: 43px;
-        padding-bottom: 43px;
-        padding-left: 0px;
-        margin-top: 40px;
-        background-color: darkslategray; 
-        font-size: large;
-    }
-}
-@media (min-width: 2560px) {
-    .logo {
-        border: 1px solid;
-        background-color: black;
-        width: 2739px;
-        padding-top: 60px;
-        padding-bottom: 60px;
-        padding-left: 40px;
-    }
-    #mg {
-        padding-left: 700px;
-        width: 2000px;
-    }
-    .food {
-        border: 1px solid;
-        width: 2739px;
-        padding-top: 43px;
-        padding-bottom: 43px;
-        padding-left: 0px;
-        margin-top: 40px;
-        background-color: darkslategray; 
-        font-size: 40px;
-    }
-    .acct {
-        margin-top: 30px;
-        margin-left: 60px;
-        width: 2040px;
-        text-decoration: none;
-        font-size: 40px;
-    }
-    #mm {
-        font-size: 40px;
-    }
-    .radio {
-        width: 400px;
-        padding: 5px;
-    }
-    .form-control {
-        width: 400px;
-        padding: 40px;
-    }
-    .mf {
-        width: 400px;
-        padding: 40px;
-    }
-    .form-check-input {
-        width: 50px;
-        padding: 2px;
-    }
-    #ds {
-        width: 200px;
-        padding: 40px;
-    }
-    #dd {
-        width: 800px;
-        padding: 40px;
-    }
-    #re {
-        font-size: 40px;
-    }
-}
-
-
-
